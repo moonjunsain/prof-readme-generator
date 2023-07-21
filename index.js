@@ -36,10 +36,20 @@ const questions = [
         message: "test?"
     },
     {
+        type: 'input',
+        name: 'email',
+        message: "email?"
+    },
+    {
+        type: 'input',
+        name: 'username',
+        message: 'username?'
+    },
+    {
         type: 'list',
         name: 'license',
         message: "license?",
-        choices: ['license1', 'license2', 'license3'],
+        choices: ['MIT', 'APACHE', 'Other'],
     },
     
 ];
