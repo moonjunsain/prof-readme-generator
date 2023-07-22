@@ -49,7 +49,7 @@ const questions = [
         type: 'list',
         name: 'license',
         message: "license?",
-        choices: ['MIT', 'APACHE', 'Other'],
+        choices: ['MIT', 'APACHE 2.0', 'GPL 3.0', 'BSD 3', 'none'],
     },
     
 ];
@@ -76,6 +76,8 @@ function init() {
         // pass the mkdown to writing function
         writeToFile("generatedREADME.md", mkDown);
         
+    }).catch(error => {
+        console.log(error);
     })
     
 }
