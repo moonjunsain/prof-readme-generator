@@ -61,12 +61,12 @@ ${data.contribution}
 ## Test 
 ${data.test}
 
-## Contact
+## Questions
 - Email: ${data.email}
 - Github: https://github.com/${data.username}
 
 ## License 
-- ${data.license} is covered in this app.
+- This app is covered under ${data.license} license.
 `;
 }
 
